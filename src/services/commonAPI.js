@@ -10,7 +10,7 @@ const commonAPI=async(httpMethod,url,reqBody,reqHeader)=>{
         url,
         data:reqBody,
         headers:reqHeader?reqHeader:{"content-type":"application/json"},
-        withCredentials: true,
+        // withCredentials: true,
 
 
     }
